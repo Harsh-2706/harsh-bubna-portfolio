@@ -13,7 +13,7 @@ export const profile = {
     linkedin: 'https://linkedin.com/in/harsh-bubna',
     email: 'mailto:harsh.bubna06@gmail.com',
   },
-  resumeUrl: '/Harsh_Bubna_Resume.pdf',
+  resumeUrl: `${import.meta.env.BASE_URL}Harsh_Bubna_Resume.pdf`,
   about: [
     "I'm an AI/ML developer pursuing my B.Tech in Computer Science Engineering (AI & ML) at SRM Institute of Science and Technology, passionate about building intelligent systems, scalable applications, and solving real-world problems with artificial intelligence.",
     'My work spans machine learning and generative AI to full-stack engineering — designing RAG pipelines, training predictive models, and shipping production-grade web platforms with FastAPI, React, and Next.js. I care most about the space where research-grade AI meets clean, usable software.',
